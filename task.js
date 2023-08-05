@@ -28,7 +28,7 @@ for (let i = 1; i <= 100; i++) {
 //Reverse String
 let st = prompt("Enter String: ")
 let reversed = "";
-for (let i = std.length - 1; i >= 0; i--) {
+for (let i = st.length - 1; i >= 0; i--) {
     reversed += st.charAt(i)
 }
 console.log(st + "Reversed => " + reversed)
